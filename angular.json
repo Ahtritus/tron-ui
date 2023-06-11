@@ -10,7 +10,7 @@
       "projectType": "library",
       "root": "projects/tron-ui",
       "sourceRoot": "projects/tron-ui/src",
-      "prefix": "lib",
+      "prefix": "tron",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
