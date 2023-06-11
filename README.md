@@ -6,6 +6,7 @@ UI Component Library built with Angular for Angular.
 
 ### Under active development
 
+- Card Component
 - Button Component
 
 ### Usable Components
