@@ -10,6 +10,7 @@ import { MultiTronToggleSwitchComponent } from './molecules/multi-tron-toggle-sw
 import { OmniTronSidebarComponent } from './organisms/omni-tron-sidebar/omni-tron-sidebar.component';
 import { SuperTronHeaderComponent } from './templates/super-tron-header/super-tron-header.component';
 import { SuperTronFooterComponent } from './templates/super-tron-footer/super-tron-footer.component';
+import { CommonModule } from '@angular/common';
 
 
 
@@ -27,11 +28,19 @@ import { SuperTronFooterComponent } from './templates/super-tron-footer/super-tr
     SuperTronHeaderComponent,
     SuperTronFooterComponent
   ],
-  imports: [
-  ],
+  imports: [CommonModule],
   exports: [
     TronUiComponent,
     OmniTronUiCardComponent,
+    UniTronButtonComponent,
+    UniTronInputComponent,
+    UniTronCheckboxComponent,
+    UniTronRadioButtonComponent,
+    MultiTronButtonGroupComponent,
+    MultiTronToggleSwitchComponent,
+    OmniTronSidebarComponent,
+    SuperTronHeaderComponent,
+    SuperTronFooterComponent,
   ]
 })
 export class TronUiModule { }
