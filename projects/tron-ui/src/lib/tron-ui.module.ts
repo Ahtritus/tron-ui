@@ -8,6 +8,9 @@ import { UniTronRadioButtonComponent } from './atoms/uni-tron-radio-button/uni-t
 import { MultiTronButtonGroupComponent } from './molecules/multi-tron-button-group/multi-tron-button-group.component';
 import { MultiTronToggleSwitchComponent } from './molecules/multi-tron-toggle-switch/multi-tron-toggle-switch.component';
 import { OmniTronSidebarComponent } from './organisms/omni-tron-sidebar/omni-tron-sidebar.component';
+import { SuperTronHeaderComponent } from './templates/super-tron-header/super-tron-header.component';
+import { SuperTronFooterComponent } from './templates/super-tron-footer/super-tron-footer.component';
+import { CommonModule } from '@angular/common';
 
 
 
@@ -21,13 +24,23 @@ import { OmniTronSidebarComponent } from './organisms/omni-tron-sidebar/omni-tro
     UniTronRadioButtonComponent,
     MultiTronButtonGroupComponent,
     MultiTronToggleSwitchComponent,
-    OmniTronSidebarComponent
+    OmniTronSidebarComponent,
+    SuperTronHeaderComponent,
+    SuperTronFooterComponent
   ],
-  imports: [
-  ],
+  imports: [CommonModule],
   exports: [
     TronUiComponent,
     OmniTronUiCardComponent,
+    UniTronButtonComponent,
+    UniTronInputComponent,
+    UniTronCheckboxComponent,
+    UniTronRadioButtonComponent,
+    MultiTronButtonGroupComponent,
+    MultiTronToggleSwitchComponent,
+    OmniTronSidebarComponent,
+    SuperTronHeaderComponent,
+    SuperTronFooterComponent,
   ]
 })
 export class TronUiModule { }
