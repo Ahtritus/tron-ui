@@ -19,3 +19,5 @@ export * from './lib/organisms/omni-tron-sidebar/omni-tron-sidebar.component';
 
 export * from './lib/templates/super-tron-footer/super-tron-footer.component';
 export * from './lib/templates/super-tron-header/super-tron-header.component';
+
+export * from './theme.service';

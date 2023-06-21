@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, Renderer2, RendererFactory2 } from '@angular/core';
 import { TronUiComponent } from './tron-ui.component';
 import { OmniTronUiCardComponent } from './organisms/omni-tron-card/omni-tron-card.component';
 import { UniTronButtonComponent } from './atoms/uni-tron-button/uni-tron-button.component';
@@ -11,6 +11,7 @@ import { OmniTronSidebarComponent } from './organisms/omni-tron-sidebar/omni-tro
 import { SuperTronHeaderComponent } from './templates/super-tron-header/super-tron-header.component';
 import { SuperTronFooterComponent } from './templates/super-tron-footer/super-tron-footer.component';
 import { CommonModule } from '@angular/common';
+import { ThemeService } from '../theme.service';
 
 
 
@@ -41,6 +42,7 @@ import { CommonModule } from '@angular/common';
     OmniTronSidebarComponent,
     SuperTronHeaderComponent,
     SuperTronFooterComponent,
-  ]
+  ],
+  providers: [{ provide: ThemeService, useClass: ThemeService, deps: [Renderer2] }]
 })
 export class TronUiModule { }

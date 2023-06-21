@@ -3,5 +3,9 @@
   "dest": "../../dist/tron-ui",
   "lib": {
     "entryFile": "src/public-api.ts"
-  }
+  },
+  "assets": [
+    "./src/styles.css",
+    "./src/themes.css"
+  ]
 }
