@@ -1,10 +1,10 @@
 
 .btn {
-  background-color:  var(--success-color);
+  background-color:  var(--primary-color);
 }
 
 .btn:hover {
-  background-color: var(--info-color);
+  background-color: var(--secondary-color);
 }
 
 .btn:focus {
