@@ -1,0 +1,117 @@
+/* Light Theme */
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #f0f0f0;
+    --tertiary-color: #cccccc;
+    --success-color: #4caf50;
+    --warning-color: #ffc107;
+    --danger-color: #f44336;
+    --info-color: #2196f3;
+    --accent-color: #9c27b0;
+    --neutral-color: #000000;
+  }
+  
+  /* Dark Theme */
+  :root[data-theme="dark"] {
+    --primary-color: #212121;
+    --secondary-color: #303030;
+    --tertiary-color: #424242;
+    --success-color: #8bc34a;
+    --warning-color: #ff9800;
+    --danger-color: #e53935;
+    --info-color: #03a9f4;
+    --accent-color: #ff4081;
+    --neutral-color: #ffffff;
+  }
+  
+  /* Forest Theme */
+  :root[data-theme="forest"] {
+    --primary-color: #2e7d32;
+    --secondary-color: #388e3c;
+    --tertiary-color: #689f38;
+    --success-color: #4caf50;
+    --warning-color: #ffeb3b;
+    --danger-color: #f44336;
+    --info-color: #2196f3;
+    --accent-color: #8bc34a;
+    --neutral-color: #ffffff;
+  }
+  
+  /* Pop Theme */
+  :root[data-theme="pop"] {
+    --primary-color: #9c27b0;
+    --secondary-color: #7b1fa2;
+    --tertiary-color: #ba68c8;
+    --success-color: #4caf50;
+    --warning-color: #ffc107;
+    --danger-color: #f44336;
+    --info-color: #2196f3;
+    --accent-color: #ff5722;
+    --neutral-color: #ffffff;
+  }
+  
+  /* Retro Theme */
+  :root[data-theme="retro"] {
+    --primary-color: #795548;
+    --secondary-color: #5d4037;
+    --tertiary-color: #8d6e63;
+    --success-color: #4caf50;
+    --warning-color: #ffc107;
+    --danger-color: #f44336;
+    --info-color: #2196f3;
+    --accent-color: #ff5722;
+    --neutral-color: #ffffff;
+  }
+  
+  /* Punk Theme */
+  :root[data-theme="punk"] {
+    --primary-color: #f44336;
+    --secondary-color: #d32f2f;
+    --tertiary-color: #e57373;
+    --success-color: #4caf50;
+    --warning-color: #ffc107;
+    --danger-color: #f44336;
+    --info-color: #2196f3;
+    --accent-color: #00bcd4;
+    --neutral-color: #ffffff;
+  }
+  
+  /* Honey Theme */
+  :root[data-theme="honey"] {
+    --primary-color: #ff9800;
+    --secondary-color: #ef6c00;
+    --tertiary-color: #ffb74d;
+    --success-color: #4caf50;
+    --warning-color: #ffc107;
+    --danger-color: #f44336;
+    --info-color: #2196f3;
+    --accent-color: #607d8b;
+    --neutral-color: #ffffff;
+  }
+  
+  /* Mellow Theme */
+  :root[data-theme="mellow"] {
+    --primary-color: #ffd54f;
+    --secondary-color: #ffca28;
+    --tertiary-color: #ffeb3b;
+    --success-color: #4caf50;
+    --warning-color: #ffc107;
+    --danger-color: #f44336;
+    --info-color: #2196f3;
+    --accent-color: #8bc34a;
+    --neutral-color: #ffffff;
+  }
+  
+  /* Tron Theme */
+  :root[data-theme="tron"] {
+    --primary-color: #03a9f4;
+    --secondary-color: #0288d1;
+    --tertiary-color: #4fc3f7;
+    --success-color: #4caf50;
+    --warning-color: #ffc107;
+    --danger-color: #f44336;
+    --info-color: #2196f3;
+    --accent-color: #ffeb3b;
+    --neutral-color: #ffffff;
+  }
+  
